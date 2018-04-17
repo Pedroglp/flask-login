@@ -1,3 +1,3 @@
-from resources.items import Items, ItemsList
+from resources.ItemResource import ItemResource, ItemsListResource
 
 __all__ = ['items']
