@@ -1,7 +1,5 @@
 from models import Item
-from flask_marshmallow import Marshmallow
-
-ma = Marshmallow()
+from app import ma
 
 class OwnerSchema(ma.Schema):
     class Meta:
