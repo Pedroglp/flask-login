@@ -4,6 +4,7 @@
 class Config(object):
     DEBUG = True
     TESTING = False
+    SECRET_KEY = ['7Y/-PoGH%uo-xg?2jVYXT]omFy)9dI']
 
 class ProductionConfig(Config):
     DEBUG = False
